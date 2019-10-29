@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-java -cp "my-skinny.jar:lib/*" clojure.main -m rgm.core
+java -cp "skinny-lein.jar:lib/*" clojure.main -m rgm.core
+#java -cp "my-skinny.jar:lib/*" clojure.main -m rgm.core
