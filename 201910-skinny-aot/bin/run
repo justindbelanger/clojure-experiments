@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
+pushd target
 java -cp "skinny-lein.jar:lib/*" clojure.main -m rgm.core
+popd
 #java -cp "my-skinny.jar:lib/*" clojure.main -m rgm.core
